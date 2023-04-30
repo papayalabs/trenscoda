@@ -1,5 +1,5 @@
 # Trenscoda
-Trenscoda is Python or Ruby script runner with the ability to automatically translate a programming code from a specific language to another language (i.e. a code from python to ruby and viceversa). 
+Trenscoda is AI Program using ChatGPT written in Python or Ruby  with the ability to automatically translate a programming code from a specific language to another language (i.e. a code from python to ruby and viceversa). 
 
 ## Requirements
 * Ruby 3.2.0 or Python 3
@@ -31,7 +31,7 @@ Trenscoda is Python or Ruby script runner with the ability to automatically tran
 `gem install ruby-openai dotenv json fileutils open3 colored diffy thor`
 
    Install the required libs
-`pip3 install ropenai json shutil subprocess unified_diff`
+`pip3 install openai json shutil subprocess unified_diff`
 
 4. Set up your OpenAI API key:
 Create a file called openai_key.txt in the project directory, and paste your OpenAI API key into it.
@@ -41,9 +41,11 @@ Create a file called openai_key.txt in the project directory, and paste your Ope
 To use Trenscoda, simply run it with the name of the file you'd like to transform, followed by any required arguments of the language of the file and the language you want to convert to. Trenscoda will automatically transform the code of file to the another  using GPT-3.5. 
 
 ```bash
-ruby trenscoda.rb <file_name> <language1> <language2> ...
+ruby trenscoda.rb <file_name> <language1> <language2>
 ```
+In this repository we have the filename "balance.rb" that was generated with AI with this prompt: 
 
+Please write a program in ruby code that get an ethereum address from the prompt and get the price in USD dollars of the ethereum from the coingecko api and get the quantity of ethereum contained in that address with an api then calculate the balance with this quantity and the price in USD dollars.
 
 ## Example
 
