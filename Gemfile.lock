@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colored (1.2)
+    diffy (3.4.2)
+    fileutils (1.7.1)
+    json (2.6.3)
+    open3 (0.1.2)
+    openai (0.3.0)
+    thor (1.2.1)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  colored
+  diffy
+  fileutils
+  json
+  open3
+  openai
+  thor
+
+BUNDLED WITH
+   2.2.19
